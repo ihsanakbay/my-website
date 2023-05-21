@@ -1,0 +1,35 @@
+baseURL = ""
+languageCode = "en-us"
+title = "İhsan Akbay"
+theme = "hello-friend-ng"
+
+[params]
+  homeSubtitle = "iOS Developer"
+  enableThemeToggle = true
+
+[params.logo]
+  logoMark     = ">"
+  logoText     = ""
+  logoHomeLink = "/"
+
+[params.footer]
+  trademark = true
+  copyright = true
+  author = true
+
+  topText = []
+  bottomText = [
+    "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+    "Made by İhsan Akbay"
+  ]
+
+
+# Social icons
+[[params.social]]
+  name = "github"
+  url  = "https://github.com/ihsanakbay"
+
+[[params.social]]
+  name = "linkedin"
+  url  = "https://www.linkedin.com/in/ihsanakbay"
+
